@@ -4,13 +4,13 @@ The Human Markdown Reference is a set of short, easy to understand HTML pages yo
 
 Consider this a fork of [Human Markdown Reference](http://github.com/Aupajo/human-Markdown-reference).
 
-*Important:* It's not designed to be a complete reference. Just a quick guide for the layman.
+It is not designed to be a complete reference. Just a quick guide for the layman. For detailed detailed markdown syntax, check the [Markdown homepage](http://daringfireball.net/projects/markdown/) at Daring Fireball
 
-It’s perfect for including as a pop-up help window next to your textarea.
+It is perfect for including as a pop-up help window next to your textarea.
 
 # Example
 
-You can check it live here: https://webtranslateit.com/markdown-reference/
+You can see an example [here](https://webtranslateit.com/markdown-reference/).
 
 # How To Use
 
