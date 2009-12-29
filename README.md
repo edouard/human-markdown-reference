@@ -20,19 +20,10 @@ Add a help link to the reference:
 
 ## HTML Snippet
 
-<pre>
-<code>
-You can format your text using 
-<a href="markdown-reference/index.html"
-   onclick="window.open(this.href,'/markdown_reference','height=400,width=600,scrollbars=1'); return false;">Markdown</a>.
-</code>
-</pre>
+    You can format your text using 
+    <a href="markdown-reference/index.html" onclick="window.open(this.href,'/markdown_reference','height=400,width=600,scrollbars=1'); return false;">Markdown</a>.
 
 ## Rails Snippet
 
-<pre>
-<code>
-  You can format your text using
-  <%= link_to 'Markdown', '/markdown-reference/index.html', :popup => ['markdown_reference', 'height=400,width=600,scrollbars=1'] %>
-</code>
-</pre>
+    You can format your text using
+    <%= link_to 'Markdown', '/markdown-reference/index.html', :popup => ['markdown_reference', 'height=400,width=600,scrollbars=1'] %>
