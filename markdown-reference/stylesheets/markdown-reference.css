@@ -1,0 +1,138 @@
+/* General */
+
+body, input, textarea, select {
+  color: #222;
+  font: 9pt "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, sans-serif;
+}
+
+body {
+  background-color: #d1d7e2;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+/* Formatting */
+
+p {
+  margin-top: 0;
+}
+
+/* Headings */
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+/* Lists */
+
+ul, ol {
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+/* Links */
+
+a:link, a:visited {
+  color: #376bd5;
+}
+
+a:hover {
+  color: #ff5c07;
+}
+
+a:active {
+  color: #910;
+}
+
+a img {
+  border-style: none;
+}
+
+/* Tables */
+
+table {
+  border-top: 1px solid #fff;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+  td, th {
+    border-left: 1px solid #d9d9d9;
+    padding: 5px 10px;
+    width: 50%;
+  }
+  
+  
+  th {
+    background-color: #eee;
+    border-bottom: 1px solid #d9d9d9;
+    text-align: left;
+  }
+  
+  tr.alternate {
+    background-color: #f1f5fa;
+  }
+
+  table table {
+    margin: 10px 0;
+    width: auto;
+  }
+  
+    table table th, table table td {
+      background-color: #fff;
+      border: 1px solid #d9d9d9;
+      padding: 0.2em 0.5em;
+      width: auto;
+    }
+  
+/* Forms */
+
+form {
+  border-top: 1px solid #ccc;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+/* Special */
+
+#title {
+  background-color: #a1adcb;
+  border-bottom: 1px solid #b8bdc7;
+  color: #444;
+  padding: 10px 10px;
+  text-shadow: 0px 1px 0px #cdd9fd;
+}
+
+.section-name {
+  background: url('../images/arrow_down.gif') no-repeat center left;
+  color: #525252;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  padding: 5px 10px 5px 16px;
+  text-shadow: 0 1px 0 #fff;
+  text-transform: uppercase;
+}
+
+.deselected {
+  background-image: url('../images/arrow_right.gif');
+}
+
+.section {
+  border-color: #b8bdc7;
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: white;
+}

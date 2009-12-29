@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Markdown Guide</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/markdown-reference.css" />
+    <script type="text/javascript" src="javascripts/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="javascripts/guide.js"></script>
+  </head>
+  <body>
+    
+    <h1 id="title">Markdown Guide</h1>
+    
+    <h2 class="section-name">Text</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Result</th>
+        </tr>
+        <tr>
+          <td>This text is **bold**.</td>
+          <td>This text is <strong>bold</strong>.</td>
+        </tr>
+        <tr class="alternate">
+          <td>This text is *italicized*.</td>
+          <td>This text is <em>italicized<em>.</td>
+        </tr>
+        <tr>
+          <td>
+            `This is some code.`
+          </td>
+          <td>
+            <code>This is some code.</code>
+          </td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Headings</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Result</th>
+        </tr>
+        <tr>
+          <td># First Header</td>
+          <td><h1>First Header</h1></td>
+        </tr>
+        <tr class="alternate">
+          <td>## Second Header</td>
+          <td><h2>Second Header</h2></td>
+        </tr>
+        <tr>
+          <td>### Third Header</td>
+          <td><h3>Third Header</h3></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Quotes</h2>
+    
+    <div class="section">
+      <table>
+        <tr class="alternate">
+          <td>
+            > This is the first level of quoting.<br />
+            >> This is nested blockquote.<br />
+            > Back to the first level.
+          </td>
+          <td>
+            <blockquote>
+              This is the first level of quoting.
+              <blockquote>
+                This is nested blockquote.
+              </blockquote>
+              Back to the first level.
+            </blockquote>
+          </td>
+        </tr>        
+      </table>
+    </div>
+    
+    <h2 class="section-name">Links and Images</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <td>Link to [Google](http://google.com).</td>
+          <td>Link to <a href="http://google.com" target="_blank">Google</a>.</td>
+        </tr>
+        <tr>
+          <td>Send me an email at &lt;address@example.com&gt;.</td>
+          <td>Send me an email at <a href="address@example.com">address@example.com</a>.</td>
+        </tr>
+        <tr>
+          <td>![37signals logo](http://www.37signals.com/images/logo-37signals.png)</td>
+          <td><img src="http://www.37signals.com/images/logo-37signals.png" alt="37signals logo" /></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Lists</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Result</th>
+        </tr>
+        <tr>
+          <td>
+            * Milk<br />
+            * Bread<br />
+            * Cheese<br />
+            &nbsp;&nbsp;* Cheddar<br />
+            &nbsp;&nbsp;* Camembert<br />
+            * Rice
+          </td>
+          <td>
+            <ul>
+              <li>Milk</li>
+              <li>Bread</li>
+              <li>Cheese
+                <ul>
+                  <li>Cheddar</li>
+                  <li>Camembert</li>
+                </ul>
+              </li>
+              <li>Rice</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="alternate">
+          <td>
+            # Milk<br />
+            # Bread<br />
+            # Cheese<br />
+            &nbsp;&nbsp;# Cheddar<br />
+            &nbsp;&nbsp;# Camembert<br />
+            # Rice
+          </td>
+          <td>
+            <ol>
+              <li>Milk</li>
+              <li>Bread</li>
+              <li>Cheese
+                <ol>
+                  <li>Cheddar</li>
+                  <li>Camembert</li>
+                </ol>
+              </li>
+              <li>Rice</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    </div>
+            
+  </body>
+</html>
