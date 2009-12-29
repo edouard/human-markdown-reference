@@ -2,7 +2,7 @@
 
 The Human Markdown Reference is a set of short, easy to understand HTML pages you can include in any project that uses Markdown.
 
-Consider this a fork of [Human Markdown Reference](http://github.com/Aupajo/human-Markdown-reference).
+Consider this a fork of [Human Textile Reference](http://github.com/Aupajo/human-textile-reference).
 
 It is not designed to be a complete reference. Just a quick guide for the layman. For detailed detailed markdown syntax, check the [Markdown homepage](http://daringfireball.net/projects/markdown/) at Daring Fireball
 
