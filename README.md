@@ -27,3 +27,37 @@ Add a help link to the reference:
 
     You can format your text using
     <%= link_to 'Markdown', '/markdown-reference/index.html', :popup => ['markdown_reference', 'height=400,width=600,scrollbars=1'] %>
+
+# Internationalization
+
+Chances are that you need a different language than English. Check in the [markdown-reference](http://github.com/edouard/human-markdown-reference/tree/master/markdown-reference/) directory to see the available languages.
+
+Add a help link to the reference:
+
+## HTML Snippet
+
+    You can format your text using 
+    <a href="markdown-reference/index.html" onclick="window.open(this.href,'/markdown_reference/xx','height=400,width=600,scrollbars=1'); return false;">Markdown</a>.
+
+where `xx` is the code of the locale you want to use.
+
+## Rails Snippet
+
+    You can format your text using
+    <%= link_to 'Markdown', "/markdown-reference/#{I18n.locale}", :popup => ['markdown_reference', 'height=400,width=600,scrollbars=1'] %>
+
+# Contributing or Correcting Translations
+
+## Translations
+
+Translations are managed by [Web Translate It](https://webtranslateit.com), a web-based translation hub. If you spot a mistake or want to contribute a new language, [go to the Human-Markdown-Reference project page](https://webtranslateit.com/projects/386-HTML-Markdown-Reference) and request an invitation.
+
+If your language is not listed there, open a ticket on Github and I will add it for you.
+
+## Compile the translated HTML file
+
+I use the [Translate Toolkit](http://translate.sourceforge.net/wiki/toolkit/index) for generating the HTML files from the .po file.
+
+Example for FR:
+
+    po2html -t markdown-reference/en/index.html _locales/fr.po markdown-reference/fr/index.html
