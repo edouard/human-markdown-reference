@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HTML Markdown Reference\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-26 21:27:18 UTC\n"
+"PO-Revision-Date: 2010-01-26 21:28:58 UTC\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Web Translate It\n"
+
+msgid "Markdown Guide"
+msgstr "Guide de référence pour Markdown"
+
+msgid "Text"
+msgstr "Texte"
+
+msgid "Markdown"
+msgstr "Markdown"
+
+msgid "Result"
+msgstr "Résultat"
+
+msgid "This text is **bold**."
+msgstr "Ce texte est **gras**."
+
+msgid "This text is <strong>bold</strong>."
+msgstr "Ce texte est <strong>gras</strong>."
+
+msgid "This text is *italicized*."
+msgstr "Ce texte est *italique*."
+
+msgid "This text is <em>italicized<em>."
+msgstr "Ce texte est <em>italique</em>"
+
+msgid "`This is some code.`"
+msgstr "`Ceci est du code.`"
+
+msgid "This is some code."
+msgstr "Ceci est du code."
+
+msgid "Headings"
+msgstr "Têtes de chapitre"
+
+msgid "# First Header"
+msgstr "# Première tête de chapitre"
+
+msgid "First Header"
+msgstr "Première tête de chapitre"
+
+msgid "## Second Header"
+msgstr "## Seconde tête de chapitre"
+
+msgid "Second Header"
+msgstr "Seconde tête de chapitre"
+
+msgid "### Third Header"
+msgstr "### Troisième tête de chapitre"
+
+msgid "Third Header"
+msgstr "Troisième tête de chapitre"
+
+msgid "Quotes"
+msgstr "Citations"
+
+msgid "> This is the first level of quoting.<br />             >> This is nested blockquote.<br />             > Back to the first level."
+msgstr "> Ceci est le premier niveau de citation.<br /> >> Ceci est une citation imbriquée.<br /> > Retour au premier niveau."
+
+msgid "This is the first level of quoting.               <blockquote>                 This is nested blockquote.               </blockquote>               Back to the first level."
+msgstr "Ceci est le premier niveau de citation.<br /> <blockquote> Ceci est une citation imbriquée.</blockquote> Retour au premier niveau."
+
+msgid "Links and Images"
+msgstr "Liens et images"
+
+msgid "Link to [Google](http://google.com)."
+msgstr "Lien vers [Google](http://google.fr)."
+
+msgid "Link to <a href=\"http://google.com\" target=\"_blank\">Google</a>."
+msgstr "Lien vers <a href=\"http://google.fr\" target=\"_blank\">Google</a>."
+
+msgid "Send me an email at <address@example.com&gt;."
+msgstr "Envoyez-mopi un e-mail à <adresse@exemple.com&gt;."
+
+msgid "Send me an email at <a href=\"address@example.com\">address@example.com</a>."
+msgstr "Envoyez-moi un e-mail à <a href=\"adresse@exemple.com\">adresse@exemple.com</a>"
+
+msgid "![37signals logo](http://www.37signals.com/images/logo-37signals.png)"
+msgstr "![Logo de 37signals](http://www.37signals.com/images/logo-37signals.png)"
+
+msgid "37signals logo"
+msgstr "Logo de 37signals"
+
+msgid "Lists"
+msgstr "Listes"
+
+msgid "* Milk<br />             * Bread<br />             * Cheese<br />             &nbsp;&nbsp;* Cheddar<br />             &nbsp;&nbsp;* Camembert<br />             * Rice"
+msgstr "* Lait<br /> * Pain<br /> * Fromage<br /> &nbsp;&nbsp;* Gruyère<br /> &nbsp;&nbsp;* Camembert<br /> * Riz"
+
+msgid "Milk"
+msgstr "Lait"
+
+msgid "Bread"
+msgstr "Pain"
+
+msgid "Cheese                 <ul>"
+msgstr "Fromage <ul>"
+
+msgid "Cheddar"
+msgstr "Gruyère"
+
+msgid "Camembert"
+msgstr "Camembert"
+
+msgid "Rice"
+msgstr "Riz"
+
+msgid "# Milk<br />             # Bread<br />             # Cheese<br />             &nbsp;&nbsp;# Cheddar<br />             &nbsp;&nbsp;# Camembert<br />             # Rice"
+msgstr "# Milk<br /> # Bread<br /> # Fromage<br /> &nbsp;&nbsp;# Gruyère<br /> &nbsp;&nbsp;# Camembert<br /> # Riz"
+
+msgid "Cheese                 <ol>"
+msgstr "Fromage <ol>"
+

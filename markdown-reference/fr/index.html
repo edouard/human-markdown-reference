@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>
+      Guide de référence pour Markdown
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/markdown-reference.css" />
+    <script type="text/javascript" src="../javascripts/jquery-1.2.6.min.js">
+    </script>
+    <script type="text/javascript" src="../javascripts/guide.js">
+    </script>
+  </head>
+  <body>
+    <h1 id="title">
+      Markdown Guide
+    </h1>
+    <h2 class="section-name">
+      Texte
+    </h2>
+    <div class="section">
+      <table>
+        <tr>
+          <th>
+            Markdown
+          </th>
+          <th>
+            RÃ©sultat
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Ce texte est **gras**.
+          </td>
+          <td>
+            Ce texte est 
+            <strong>
+              gras
+            </strong>
+            .
+          </td>
+        </tr>
+        <tr class="alternate">
+          <td>
+            Ce texte est *italique*.
+          </td>
+          <td>
+            Ce texte est 
+            <em>
+              italique
+            </em>
+          </td>
+        </tr>
+        <tr>
+          <td>
+             `Ceci est du code.` 
+          </td>
+          <td>
+            <code>
+              Ceci est du code.
+            </code>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h2 class="section-name">
+      Têtes de chapitre
+    </h2>
+    <div class="section">
+      <table>
+        <tr>
+          <th>
+            Markdown
+          </th>
+          <th>
+            Result
+          </th>
+        </tr>
+        <tr>
+          <td>
+            # Première tête de chapitre
+          </td>
+          <td>
+            <h1>
+              Première tête de chapitre
+            </h1>
+          </td>
+        </tr>
+        <tr class="alternate">
+          <td>
+            ## Seconde tête de chapitre
+          </td>
+          <td>
+            <h2>
+              Seconde tête de chapitre
+            </h2>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            ### Troisième tête de chapitre
+          </td>
+          <td>
+            <h3>
+              Troisième tête de chapitre
+            </h3>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h2 class="section-name">
+      Citations
+    </h2>
+    <div class="section">
+      <table>
+        <tr class="alternate">
+          <td>
+             > Ceci est le premier niveau de citation.<br /> >> Ceci est une citation imbriquée.<br /> > Retour au premier niveau. 
+          </td>
+          <td>
+            <blockquote>
+               Ceci est le premier niveau de citation.<br />
+              <blockquote>
+                 Ceci est une citation imbriquée.
+              </blockquote>
+               Retour au premier niveau. 
+            </blockquote>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h2 class="section-name">
+      Liens et images
+    </h2>
+    <div class="section">
+      <table>
+        <tr>
+          <td>
+            Lien vers [Google](http://google.fr).
+          </td>
+          <td>
+            Lien vers 
+            <a href="http://google.fr" target="_blank">
+              Google
+            </a>
+            .
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Envoyez-moi un email à &lt;adresse@exemple.com&gt;.
+          </td>
+          <td>
+            Envoyez-moi un e-mail à  
+            <a href="adresse@exemple.com">
+              adresse@exemple.com
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            ![Logo de 37signals](http://www.37signals.com/images/logo-37signals.png)
+          </td>
+          <td>
+            <img src="http://www.37signals.com/images/logo-37signals.png" alt="Logo de 37signals" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h2 class="section-name">
+      Listes
+    </h2>
+    <div class="section">
+      <table>
+        <tr>
+          <th>
+            Markdown
+          </th>
+          <th>
+            Result
+          </th>
+        </tr>
+        <tr>
+          <td>
+             * Lait<br /> * Pain<br /> * Fromage<br /> &nbsp;&nbsp;* Gruyère<br /> &nbsp;&nbsp;* Camembert<br /> * Riz 
+          </td>
+          <td>
+            <ul>
+              <li>
+                Lait
+              </li>
+              <li>
+                Pain
+              </li>
+              <li>
+                Fromage 
+                <ul>
+                  <li>
+                    Gruyère
+                  </li>
+                  <li>
+                    Camembert
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Riz
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="alternate">
+          <td>
+             # Lait<br /> # Pain<br /> # Fromage<br /> &nbsp;&nbsp;# Gruyère<br /> &nbsp;&nbsp;# Camembert<br /> # Riz 
+          </td>
+          <td>
+            <ol>
+              <li>
+                Lait
+              </li>
+              <li>
+                Pain
+              </li>
+              <li>
+                Fromage 
+                <ol>
+                  <li>
+                    Gruyère
+                  </li>
+                  <li>
+                    Camembert
+                  </li>
+                </ol>
+              </li>
+              <li>
+                Riz
+              </li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
