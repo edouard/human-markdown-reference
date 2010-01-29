@@ -54,7 +54,7 @@ msgid "Third Header"
 msgstr "Tredje Rubriken"
 
 msgid "Quotes"
-msgstr "Quotes"
+msgstr "Citat"
 
 msgid "> This is the first level of quoting.<br />             >> This is nested blockquote.<br />             > Back to the first level."
 msgstr "> Detta är den första nivån citera.<br /> >> Detta är kapslade blockquote.<br /> > Tillbaka till första nivån."
