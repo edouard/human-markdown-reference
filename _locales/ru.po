@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Human Markdown Reference\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-26 21:27:18 UTC\n"
+"PO-Revision-Date: 2010-01-28 22:55:42 UTC\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Web Translate It\n"
+
+# Ok. Fixed :)
+# Yes, this is strange. html2po converted this `>` into `&gt;`. I think you can translate with <address@example.com>. Thanks!
+# "Send me an email at <address@example.com&gt;."  Is it correct markup in this case? I'm not sure about "&gt;" at the end.
+msgid "Send me an email at <address@example.com&gt;."
+msgstr "Отправьте мне электронное письмо на <address@example.com>."
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Markdown"
+msgstr "Markdown"
+
+msgid "Result"
+msgstr "Результат"
+
+msgid "This text is <strong>bold</strong>."
+msgstr "Это <strong>bold</strong> текст."
+
+msgid "This text is <em>italicized<em>."
+msgstr "Это <em>курсив<em>."
+
+msgid "`This is some code.`"
+msgstr "`Это код.`"
+
+msgid "This is some code."
+msgstr "Это код."
+
+msgid "Headings"
+msgstr "Заголовки"
+
+msgid "# First Header"
+msgstr "# Заголовок первого уровня"
+
+msgid "First Header"
+msgstr "Заголовок первого уровня"
+
+msgid "## Second Header"
+msgstr "## Заголовок второго уровня"
+
+msgid "Second Header"
+msgstr "Заголовок второго уровня"
+
+msgid "### Third Header"
+msgstr "### Заголовок третьего уровня"
+
+msgid "Third Header"
+msgstr "Заголовок третьего уровня"
+
+msgid "Quotes"
+msgstr "Цитаты"
+
+msgid "> This is the first level of quoting.<br />             >> This is nested blockquote.<br />             > Back to the first level."
+msgstr "> Это первый уровень цитирования.<br /> >> Второй уровень цитирования.<br /> > И снова, первый уровень."
+
+msgid "This is the first level of quoting.               <blockquote>                 This is nested blockquote.               </blockquote>               Back to the first level."
+msgstr "Это первый уровень цитирования. <blockquote> Второй уровень цитирования. </blockquote> И снова, первый уровень."
+
+msgid "Links and Images"
+msgstr "Ссылки и изображения"
+
+msgid "Link to <a href=\"http://google.com\" target=\"_blank\">Google</a>."
+msgstr "Ссылка на <a href=\"http://google.com\" target=\"_blank\">Google</a>."
+
+msgid "Send me an email at <a href=\"address@example.com\">address@example.com</a>."
+msgstr "Отправьте мне электронное письмо на <a href=\"address@example.com\">address@example.com</a>"
+
+msgid "![37signals logo](http://www.37signals.com/images/logo-37signals.png)"
+msgstr "![Логотип 37signals](http://www.37signals.com/images/logo-37signals.png)"
+
+msgid "37signals logo"
+msgstr "Логотип 37signals"
+
+msgid "Lists"
+msgstr "Списки"
+
+msgid "* Milk<br />             * Bread<br />             * Cheese<br />             &nbsp;&nbsp;* Cheddar<br />             &nbsp;&nbsp;* Camembert<br />             * Rice"
+msgstr "* Молоко<br /> * Хлеб<br /> * Сыр<br /> &nbsp;&nbsp;* Чеддер<br /> &nbsp;&nbsp;* Камамбер<br /> * Рис"
+
+msgid "Milk"
+msgstr "Молоко"
+
+msgid "Bread"
+msgstr "Хлеб"
+
+msgid "Cheese                 <ul>"
+msgstr "Сыр <ul>"
+
+msgid "Cheddar"
+msgstr "Чеддер"
+
+msgid "Camembert"
+msgstr "Камамбер"
+
+msgid "Rice"
+msgstr "Рис"
+
+msgid "# Milk<br />             # Bread<br />             # Cheese<br />             &nbsp;&nbsp;# Cheddar<br />             &nbsp;&nbsp;# Camembert<br />             # Rice"
+msgstr "# Молоко<br /> # Хлеб<br /> # Сыр<br /> &nbsp;&nbsp;# Чеддер<br /> &nbsp;&nbsp;# Камамбер<br /> # Рис"
+
+msgid "Cheese                 <ol>"
+msgstr "Сыр"
+
+# It can be nice to localize the Google URL. For example http://google.fr for french, http://google.de for german, etc.
+msgid "Link to [Google](http://google.com)."
+msgstr "Ссылка на [Google](http://google.com)."
+
+# Keep the asterisks, it is part of the Markdown code.
+msgid "This text is **bold**."
+msgstr "Это **жирный** текст."
+
+# Keep the asterisk, it is part of the Markdown code.
+msgid "This text is *italicized*."
+msgstr "Это *курсив*."
+
+# Used in the title bar of the browser window.
+msgid "Markdown Guide"
+msgstr "Справочник по Markdown"
+
