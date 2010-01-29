@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Markdown Handbok</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/markdown-reference.css" />
+<script type="text/javascript" src="../javascripts/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="../javascripts/guide.js"></script>
+</head>
+<body>
+<h1 id="title">Markdown Guide</h1>
+<h2 class="section-name">Text</h2>
+<div class="section">
+	<table>
+	<tr>
+		<th>
+			Markdown
+		</th>
+		<th>
+			Resultat
+		</th>
+	</tr>
+	<tr>
+		<td>
+			Texten är **fet**.
+		</td>
+		<td>
+			Texten är <strong>fet</strong>.
+		</td>
+	</tr>
+	<tr class="alternate">
+		<td>
+			Texten är *kursiv*.
+		</td>
+		<td>
+			Texten är <em>kursiv</em>.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			 `Detta är lite kod.`
+		</td>
+		<td>
+			<code>Detta är lite kod.</code>
+		</td>
+	</tr>
+	</table>
+</div>
+<h2 class="section-name">Rubriker</h2>
+<div class="section">
+	<table>
+	<tr>
+		<th>
+			Markdown
+		</th>
+		<th>
+			Result
+		</th>
+	</tr>
+	<tr>
+		<td>
+			# Första Rubrik
+		</td>
+		<td>
+			<h1>Första Rubriken</h1>
+		</td>
+	</tr>
+	<tr class="alternate">
+		<td>
+			## Andra Rubriken
+		</td>
+		<td>
+			<h2>Andra Rubriken</h2>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			### Tredje Rubriken
+		</td>
+		<td>
+			<h3>Tredje Rubriken</h3>
+		</td>
+	</tr>
+	</table>
+</div>
+<h2 class="section-name">Quotes</h2>
+<div class="section">
+	<table>
+	<tr class="alternate">
+		<td>
+			 > Detta är den första nivån citera.<br />
+			 >> Detta är kapslade blockquote.<br />
+			 > Tillbaka till första nivån.
+		</td>
+		<td>
+			<blockquote>
+				 Detta är den första nivån citera.
+				<blockquote>
+					 Detta är kapslade blockquote.
+				</blockquote>
+				 Tillbaka till första nivån.
+			</blockquote>
+		</td>
+	</tr>
+	</table>
+</div>
+<h2 class="section-name">Länkar och Bilder</h2>
+<div class="section">
+	<table>
+	<tr>
+		<td>
+			Länk till [Google](http://google.se).
+		</td>
+		<td>
+			Länk till <a href="http://google.se" target="_blank">Google</a>.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Send me an email at &lt;address@example.com&gt;.
+		</td>
+		<td>
+			Skicka mig ett e-post till <a href="adressen@exemple.se">adressen@exempel.se</a>.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			![37signals logotyptyp](http://www.37signals.com/images/logo-37signals.png)
+		</td>
+		<td>
+			<img src="http://www.37signals.com/images/logo-37signals.png" alt="37signals logo" />
+		</td>
+	</tr>
+	</table>
+</div>
+<h2 class="section-name">Listor</h2>
+<div class="section">
+	<table>
+	<tr>
+		<th>
+			Markdown
+		</th>
+		<th>
+			Result
+		</th>
+	</tr>
+	<tr>
+		<td>
+			 * Mjölk<br />
+			 * Bröd<br />
+			 * Öst<br />
+			 &nbsp;&nbsp;* Cheddar<br />
+			 &nbsp;&nbsp;* Camembert<br />
+			 * Ris
+		</td>
+		<td>
+			<ul>
+				<li>Mjölk</li>
+				<li>Bröd</li>
+				<li>Öst
+				<li>Cheddar</li>
+				<li>Camembert</li>
+			</ul>
+			</li>
+			<li>Ris</li>
+		</ul>
+	</td>
+</tr>
+<tr class="alternate">
+	<td>
+		 # Mjölk<br />
+		 # Bröd<br />
+		 # Öst<br />
+		 &nbsp;&nbsp;# Cheddar<br />
+		 &nbsp;&nbsp;# Camembert<br />
+		 # Ris
+	</td>
+	<td>
+		<ol>
+			<li>Milk</li>
+			<li>Bread</li>
+			<li>Öst
+			<ol>
+				<li>Cheddar</li>
+				<li>Camembert</li>
+			</ol>
+			</li>
+			<li>Rice</li>
+		</ol>
+	</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

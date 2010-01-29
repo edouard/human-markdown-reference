@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Human Markdown Reference\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-26 21:27:18 UTC\n"
+"PO-Revision-Date: 2010-01-28 22:55:42 UTC\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Web Translate It\n"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Markdown"
+msgstr "Markdown"
+
+msgid "Result"
+msgstr "Resultat"
+
+msgid "This text is <strong>bold</strong>."
+msgstr "Texten är <strong>fet</strong>."
+
+msgid "This text is <em>italicized<em>."
+msgstr "Texten är <em>kursiv</em>."
+
+msgid "`This is some code.`"
+msgstr "`Detta är lite kod.`"
+
+msgid "This is some code."
+msgstr "Detta är lite kod."
+
+msgid "Headings"
+msgstr "Rubriker"
+
+msgid "# First Header"
+msgstr "# Första Rubrik"
+
+msgid "First Header"
+msgstr "Första Rubriken"
+
+msgid "## Second Header"
+msgstr "## Andra Rubriken"
+
+msgid "Second Header"
+msgstr "Andra Rubriken"
+
+msgid "### Third Header"
+msgstr "### Tredje Rubriken"
+
+msgid "Third Header"
+msgstr "Tredje Rubriken"
+
+msgid "Quotes"
+msgstr "Quotes"
+
+msgid "> This is the first level of quoting.<br />             >> This is nested blockquote.<br />             > Back to the first level."
+msgstr "> Detta är den första nivån citera.<br /> >> Detta är kapslade blockquote.<br /> > Tillbaka till första nivån."
+
+msgid "This is the first level of quoting.               <blockquote>                 This is nested blockquote.               </blockquote>               Back to the first level."
+msgstr "Detta är den första nivån citera. <blockquote> Detta är kapslade blockquote. </blockquote> Tillbaka till första nivån."
+
+msgid "Links and Images"
+msgstr "Länkar och Bilder"
+
+msgid "Link to <a href=\"http://google.com\" target=\"_blank\">Google</a>."
+msgstr "Länk till <a href=\"http://google.se\" target=\"_blank\">Google</a>."
+
+msgid "Send me an email at <address@example.com&gt;."
+msgstr "Skicka mig ett e-post till <adressen@exempel.se&gt;."
+
+msgid "Send me an email at <a href=\"address@example.com\">address@example.com</a>."
+msgstr "Skicka mig ett e-post till <a href=\"adressen@exemple.se\">adressen@exempel.se</a>."
+
+msgid "![37signals logo](http://www.37signals.com/images/logo-37signals.png)"
+msgstr "![37signals logotyp](http://www.37signals.com/images/logo-37signals.png)"
+
+msgid "37signals logo"
+msgstr "37signals logotyp"
+
+msgid "Lists"
+msgstr "Listor"
+
+msgid "* Milk<br />             * Bread<br />             * Cheese<br />             &nbsp;&nbsp;* Cheddar<br />             &nbsp;&nbsp;* Camembert<br />             * Rice"
+msgstr "* Mjölk<br /> * Bröd<br /> * Öst<br /> &nbsp;&nbsp;* Cheddar<br /> &nbsp;&nbsp;* Camembert<br /> * Ris"
+
+msgid "Milk"
+msgstr "Mjölk"
+
+msgid "Bread"
+msgstr "Bröd"
+
+msgid "Cheese                 <ul>"
+msgstr "Öst"
+
+msgid "Cheddar"
+msgstr "Cheddar"
+
+msgid "Camembert"
+msgstr "Camembert"
+
+msgid "Rice"
+msgstr "Ris"
+
+msgid "# Milk<br />             # Bread<br />             # Cheese<br />             &nbsp;&nbsp;# Cheddar<br />             &nbsp;&nbsp;# Camembert<br />             # Rice"
+msgstr "# Mjölk<br /> # Bröd<br /> # Öst<br /> &nbsp;&nbsp;# Cheddar<br /> &nbsp;&nbsp;# Camembert<br /> # Ris"
+
+msgid "Cheese                 <ol>"
+msgstr "Öst <ol>"
+
+# It can be nice to localize the Google URL. For example http://google.fr for french, http://google.de for german, etc.
+msgid "Link to [Google](http://google.com)."
+msgstr "Länk till [Google](http://google.se)."
+
+# Keep the asterisks, it is part of the Markdown code.
+msgid "This text is **bold**."
+msgstr "Texten är **fet**."
+
+# Keep the asterisk, it is part of the Markdown code.
+msgid "This text is *italicized*."
+msgstr "Texten är *kursiv*."
+
+# Used in the title bar of the browser window.
+msgid "Markdown Guide"
+msgstr "Markdown Handbok"
+
