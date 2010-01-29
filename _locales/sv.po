@@ -84,7 +84,7 @@ msgid "Lists"
 msgstr "Listor"
 
 msgid "* Milk<br />             * Bread<br />             * Cheese<br />             &nbsp;&nbsp;* Cheddar<br />             &nbsp;&nbsp;* Camembert<br />             * Rice"
-msgstr "* Mjölk<br /> * Bröd<br /> * Öst<br /> &nbsp;&nbsp;* Cheddar<br /> &nbsp;&nbsp;* Camembert<br /> * Ris"
+msgstr "* Mjölk<br /> * Bröd<br /> * Ost<br /> &nbsp;&nbsp;* Cheddar<br /> &nbsp;&nbsp;* Camembert<br /> * Ris"
 
 msgid "Milk"
 msgstr "Mjölk"
@@ -93,7 +93,7 @@ msgid "Bread"
 msgstr "Bröd"
 
 msgid "Cheese                 <ul>"
-msgstr "Öst"
+msgstr "Ost"
 
 msgid "Cheddar"
 msgstr "Cheddar"
@@ -105,10 +105,10 @@ msgid "Rice"
 msgstr "Ris"
 
 msgid "# Milk<br />             # Bread<br />             # Cheese<br />             &nbsp;&nbsp;# Cheddar<br />             &nbsp;&nbsp;# Camembert<br />             # Rice"
-msgstr "# Mjölk<br /> # Bröd<br /> # Öst<br /> &nbsp;&nbsp;# Cheddar<br /> &nbsp;&nbsp;# Camembert<br /> # Ris"
+msgstr "# Mjölk<br /> # Bröd<br /> # Ost<br /> &nbsp;&nbsp;# Cheddar<br /> &nbsp;&nbsp;# Camembert<br /> # Ris"
 
 msgid "Cheese                 <ol>"
-msgstr "Öst <ol>"
+msgstr "Ost <ol>"
 
 # It can be nice to localize the Google URL. For example http://google.fr for french, http://google.de for german, etc.
 msgid "Link to [Google](http://google.com)."
