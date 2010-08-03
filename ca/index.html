@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Guia de referència de Markdown</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <link href="../stylesheets/markdown-reference.css" rel="stylesheet" media="screen" type="text/css" />
+    <script src="../javascripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="../javascripts/guide.js" type="text/javascript"></script>
+  </head>
+  <body>
+    
+    <h1 id="title">Guia de referència de Markdown</h1>
+    
+    <h2 class="section-name">Text</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Resultat</th>
+        </tr>
+        <tr>
+          <td>Aquest text està en **negreta**.</td>
+          <td>Aquest text està en <strong>negreta</strong>.</td>
+        </tr>
+        <tr class="alternate">
+          <td>Aquest text està en *cursiva*.</td>
+          <td>Aquest text està en <em>cursiva</em>.</td>
+        </tr>
+        <tr>
+          <td>`Això és un tros de codi.`</td>
+          <td><code>Això és un tros de codi.</code></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Capçaleres</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Resultat</th>
+        </tr>
+        <tr>
+          <td># Primera capçalera</td>
+          <td><h1>Primera capçalera</h1></td>
+        </tr>
+        <tr class="alternate">
+          <td>## Segona capçalera</td>
+          <td><h2>Segona capçalera</h2></td>
+        </tr>
+        <tr>
+          <td>### Tercera capçalera</td>
+          <td><h3>Tercera capçalera</h3></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Citacions</h2>
+    
+    <div class="section">
+      <table>
+        <tr class="alternate">
+          <td>
+             > Aquest és el primer nivell de citació.<br />
+             >> Això és un bloc de citació aniuat.<br />
+             > Retorn al primer nivell.
+             </td>
+          <td>
+            <blockquote>
+              Aquest és el primer nivell de citació.
+              <blockquote>Això és un bloc de citació aniuat.</blockquote>
+              Retorn al primer nivell.
+            </blockquote>
+          </td>
+        </tr>        
+      </table>
+    </div>
+    
+    <h2 class="section-name">Enllaços i imatges</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <td>Enllaç a [Google](http://google.com).</td>
+          <td>Enllaç a <a href="http://google.com" target="_blank">Google</a>.</td>
+        </tr>
+        <tr>
+          <td>Envia'm un correu a &lt;adreça@exemple.com&gt;.</td>
+          <td>Envia'm un correu a <a href="mailto:adreça@exemple.com">adreça@exemple.com</a>.</td>
+        </tr>
+        <tr>
+          <td>![logotip de 37signals](http://www.37signals.com/images/logo-37signals.png)</td>
+          <td><img src="http://www.37signals.com/images/logo-37signals.png" alt="Logotip de 37signals" /></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Llistes</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Resultat</th>
+        </tr>
+        <tr>
+          <td>* Llet<br />
+* Pa<br />
+* Formatge<br />
+&nbsp;&nbsp;* Cheddar<br />
+&nbsp;&nbsp;* Camembert<br />
+* Arròs</td>
+          <td>
+            <ul>
+              <li>Llet</li>
+              <li>Pa</li>
+              <li>Formatge
+                <ul>
+                  <li>Cheddar</li>
+                  <li>Camembert</li>
+                </ul>
+              </li>
+              <li>Arròs</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="alternate">
+          <td>
+            1. Llet<br />
+            2. Pa<br />
+            3. Formatge<br />
+              1. Cheddar<br />
+              2. Camembert<br />
+            4. Arròs
+          </td>
+          <td>
+            <ol>
+              <li>Llet</li>
+              <li>Pa</li>
+              <li>Formatge
+                <ol>
+                  <li>Cheddar</li>
+                  <li>Camembert</li>
+                </ol>
+              </li>
+              <li>Arròs</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    </div>
+            
+  </body>
+</html>
