@@ -30,7 +30,7 @@ Add a help link to the reference:
 
 # Internationalization
 
-Chances are that you need a different language than English. Check in the [markdown-reference](http://github.com/edouard/human-markdown-reference/tree/master/markdown-reference/) directory to see the available languages.
+You may need a different language than English. Check in the [markdown-reference](http://github.com/edouard/human-markdown-reference/tree/master/markdown-reference/) directory to see the available languages.
 
 Add a help link to the reference:
 
@@ -50,14 +50,4 @@ where `xx` is the code of the locale you want to use.
 
 ## Translations
 
-Translations are managed by [Web Translate It](https://webtranslateit.com), a web-based translation hub. If you spot a mistake or want to contribute a new language, [go to the Human-Markdown-Reference project page](https://webtranslateit.com/projects/386-HTML-Markdown-Reference) and request an invitation.
-
-If your language is not listed there, open a ticket on Github and I will add it for you.
-
-## Compile the translated HTML file
-
-I use the [Translate Toolkit](http://translate.sourceforge.net/wiki/toolkit/index) for generating the HTML files from the .po file.
-
-Example for FR:
-
-    po2html -t markdown-reference/en/index.html _locales/fr.po markdown-reference/fr/index.html
+Translations are managed by [Web Translate It](https://webtranslateit.com), a web-based translation hub. If you spot a mistake or want to contribute a new language, [request an invitation](https://webtranslateit.com/projects/386-HTML-Markdown-Reference/invitation_request).

@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Guide de référence pour Markdown</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <link href="../stylesheets/markdown-reference.css" rel="stylesheet" media="screen" type="text/css" />
+    <script src="../javascripts/jquery-1.2.6.min.js" type="text/javascript"></script>
+    <script src="../javascripts/guide.js" type="text/javascript"></script>
+  </head>
+  <body>
+    
+    <h1 id="title">Guide de référence pour Markdown</h1>
+    
+    <h2 class="section-name">Texte</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Résultat</th>
+        </tr>
+        <tr>
+          <td>Ce texte est en **gras**.</td>
+          <td>Ce texte est en <strong>gras</strong>.</td>
+        </tr>
+        <tr class="alternate">
+          <td>Ce texte est *italique*.</td>
+          <td>Ce texte est <em>italique</em>.</td>
+        </tr>
+        <tr>
+          <td>`Ceci est du code.`</td>
+          <td><code>Ceci est du code.</code></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Têtes de chapitre</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Résultat</th>
+        </tr>
+        <tr>
+          <td># Première tête de chapitre</td>
+          <td><h1>Première tête de chapitre</h1></td>
+        </tr>
+        <tr class="alternate">
+          <td>## Seconde tête de chapitre</td>
+          <td><h2>Seconde tête de chapitre</h2></td>
+        </tr>
+        <tr>
+          <td>### Troisième tête de chapitre</td>
+          <td><h3>Troisième tête de chapitre</h3></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Citations</h2>
+    
+    <div class="section">
+      <table>
+        <tr class="alternate">
+          <td>
+            > Ceci est le premier niveau de citation.<br />
+            >> Ceci est une citation imbriquée.<br />
+            > Retour au premier niveau.
+            </td>
+          <td>
+            <blockquote>
+              This is the first level of quoting.
+              <blockquote>
+                Ceci est une citation imbriquée.
+              </blockquote>
+              Back to the first level.
+            </blockquote>
+          </td>
+        </tr>        
+      </table>
+    </div>
+    
+    <h2 class="section-name">Liens et images</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <td>Lien vers [Google](http://google.fr).</td>
+          <td>Lien vers <a href="http://google.fr" target="_blank">Google</a>.</td>
+        </tr>
+        <tr>
+          <td>Envoyez-mopi un e-mail à <adresse@exemple.com>.</td>
+          <td>Envoyez-moi un e-mail à <a href="mailto:address@example.com">adresse@exemple.com</a> .</td>
+        </tr>
+        <tr>
+          <td>![Logo de 37signals](http://www.37signals.com/images/logo-37signals.png)</td>
+          <td><img src="http://www.37signals.com/images/logo-37signals.png" alt="Logo de 37signals" /></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Listes</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Résultat</th>
+        </tr>
+        <tr>
+          <td>
+            * Lait<br />
+            * Pain<br />
+            * Fromage<br />
+            &nbsp;&nbsp;* Gruyère<br />
+            &nbsp;&nbsp;* Camembert<br />
+            * Riz
+            </td>
+          <td>
+            <ul>
+              <li>Lait</li>
+              <li>Pain</li>
+              <li>Cheese
+                <ul>
+                  <li>Cheddar</li>
+                  <li>Camembert</li>
+                </ul>
+              </li>
+              <li>Riz</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="alternate">
+          <td>1. Lait <br />
+2. Pain <br />
+3. Fromage <br />
+  1. Cheddar <br />
+  2. Camembert <br />
+4. Riz</td>
+          <td>
+            <ol>
+              <li>Lait</li>
+              <li>Pain</li>
+              <li>Cheese
+                <ol>
+                  <li>Cheddar</li>
+                  <li>Camembert</li>
+                </ol>
+              </li>
+              <li>Riz</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    </div>
+            
+  </body>
+</html>
