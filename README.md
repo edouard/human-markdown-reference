@@ -14,7 +14,7 @@ You can see an example [here](https://webtranslateit.com/markdown-reference/).
 
 # How To Use
 
-Copy the `markdown-reference/` directory to your project.
+Copy `markdown-reference` to your project.
 
 Add a help link to the reference:
 
@@ -37,7 +37,7 @@ Add a help link to the reference:
 ## HTML Snippet
 
     You can format your text using 
-    <a href="markdown-reference/index.html" onclick="window.open(this.href,'/markdown_reference/xx','height=400,width=600,scrollbars=1'); return false;">Markdown</a>.
+    <a href="markdown-reference/xx" onclick="window.open(this.href,'/markdown_reference/xx','height=400,width=600,scrollbars=1'); return false;">Markdown</a>.
 
 where `xx` is the code of the locale you want to use.
 
@@ -48,6 +48,4 @@ where `xx` is the code of the locale you want to use.
 
 # Contributing or Correcting Translations
 
-## Translations
-
-Translations are managed by [Web Translate It](https://webtranslateit.com), a web-based translation hub. If you spot a mistake or want to contribute a new language, [request an invitation](https://webtranslateit.com/projects/386-HTML-Markdown-Reference/invitation_request).
+If you spot a mistake or want to contribute a new language, [request an invitation](https://webtranslateit.com/projects/386-HTML-Markdown-Reference/invitation_request) to the translation project.
