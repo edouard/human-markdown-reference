@@ -1,195 +1,153 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
-<head>
-<title>Справочник по Markdown</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/markdown-reference.css" />
-<script type="text/javascript" src="../javascripts/jquery-1.2.6.min.js"></script>
-<script type="text/javascript" src="../javascripts/guide.js"></script>
-</head>
-<body>
-<h1 id="title">Справочник по Markdown</h1>
-<h2 class="section-name">Текст</h2>
-<div class="section">
-	<table>
-	<tr>
-		<th>
-			Markdown
-		</th>
-		<th>
-			Результат
-		</th>
-	</tr>
-	<tr>
-		<td>
-			Это **жирный** текст.
-		</td>
-		<td>
-			Это <strong>bold</strong> текст.
-		</td>
-	</tr>
-	<tr class="alternate">
-		<td>
-			Это *курсив*.
-		</td>
-		<td>
-			Это <em>курсив<em>.
-		</td>
-	</tr>
-	<tr>
-		<td>
-			 `Это код.`
-		</td>
-		<td>
-			<code>Это код.</code>
-		</td>
-	</tr>
-	</table>
-</div>
-<h2 class="section-name">Заголовки</h2>
-<div class="section">
-	<table>
-	<tr>
-		<th>
-			Markdown
-		</th>
-		<th>
-			Результат
-		</th>
-	</tr>
-	<tr>
-		<td>
-			# Заголовок первого уровня
-		</td>
-		<td>
-			<h1>Заголовок первого уровня</h1>
-		</td>
-	</tr>
-	<tr class="alternate">
-		<td>
-			## Заголовок второго уровня
-		</td>
-		<td>
-			<h2>Заголовок второго уровня</h2>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			### Заголовок третьего уровня
-		</td>
-		<td>
-			<h3>Заголовок третьего уровня</h3>
-		</td>
-	</tr>
-	</table>
-</div>
-<h2 class="section-name">Цитаты</h2>
-<div class="section">
-	<table>
-	<tr class="alternate">
-		<td>
-			 > Это первый уровень цитирования.<br />
-			 >> Второй уровень цитирования.<br />
-			 > И снова, первый уровень.
-		</td>
-		<td>
-			<blockquote>
-				 Это первый уровень цитирования.
-				<blockquote>
-					 Второй уровень цитирования.
-				</blockquote>
-				 И снова, первый уровень.
-			</blockquote>
-		</td>
-	</tr>
-	</table>
-</div>
-<h2 class="section-name">Ссылки и изображения</h2>
-<div class="section">
-	<table>
-	<tr>
-		<td>
-			Ссылка на [Google](http://google.com).
-		</td>
-		<td>
-			Ссылка на <a href="http://google.com" target="_blank">Google</a>.
-		</td>
-	</tr>
-	<tr>
-		<td>
-			Отправьте мне электронное письмо на &lt;address@example.com&gt;.
-		</td>
-		<td>
-			Отправьте мне электронное письмо на <a href="address@example.com">address@example.com</a>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			![Логотип 37signals](http://www.37signals.com/images/logo-37signals.png)
-		</td>
-		<td>
-			<img src="http://www.37signals.com/images/logo-37signals.png" alt="Логотип 37signals" />
-		</td>
-	</tr>
-	</table>
-</div>
-<h2 class="section-name">Списки</h2>
-<div class="section">
-	<table>
-	<tr>
-		<th>
-			Markdown
-		</th>
-		<th>
-			Результат
-		</th>
-	</tr>
-	<tr>
-		<td>
-			 * Молоко<br />
-			 * Хлеб<br />
-			 * Сыр<br />
-			 &nbsp;&nbsp;* Чеддер<br />
-			 &nbsp;&nbsp;* Камамбер<br />
-			 * Рис
-		</td>
-		<td>
-			<ul>
-				<li>Молоко</li>
-				<li>Хлеб</li>
-				<li>Сыр
-				<ul>
-					<li>Чеддер</li>
-					<li>Камамбер</li>
-				</ul>
-				</li>
-				<li>Рис</li>
-			</ul>
-		</td>
-	</tr>
-	<tr class="alternate">
-		<td>
-			 # Молоко<br />
-			 # Хлеб<br />
-			 # Сыр<br />
-			 &nbsp;&nbsp;# Чеддер<br />
-			 &nbsp;&nbsp;# Камамбер<br />
-			 # Рис
-		</td>
-		<td>
-			<ol>
-				<li>Молоко</li>
-				<li>Хлеб</li>
-				<li>Сыр
-				  <ol>
-				    <li>Чеддер</li>
-				    <li>Камамбер</li>
-			    </ol>
-			  </li>
-			  <li>Рис</li>
-		  </ol>
-	  </td>
-  </tr>
-</table>
-</div>
-</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Справочник по Markdown</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <link href="../stylesheets/markdown-reference.css" rel="stylesheet" media="screen" type="text/css" />
+    <script src="../javascripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="../javascripts/guide.js" type="text/javascript"></script>
+  </head>
+  <body>
+    
+    <h1 id="title">Справочник по Markdown</h1>
+    
+    <h2 class="section-name">Текст</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Результат</th>
+        </tr>
+        <tr>
+          <td>Это **жирный** текст.</td>
+          <td>Это <strong>bold</strong> текст.</td>
+        </tr>
+        <tr class="alternate">
+          <td>Это *курсив*.</td>
+          <td>Это <em>курсив</em>.</td>
+        </tr>
+        <tr>
+          <td>`Это код.`</td>
+          <td><code>Это код.</code></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Заголовки</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Результат</th>
+        </tr>
+        <tr>
+          <td># Заголовок первого уровня</td>
+          <td><h1>Заголовок первого уровня</h1></td>
+        </tr>
+        <tr class="alternate">
+          <td>## Заголовок второго уровня</td>
+          <td><h2>Заголовок второго уровня</h2></td>
+        </tr>
+        <tr>
+          <td>### Заголовок третьего уровня</td>
+          <td><h3>Заголовок третьего уровня</h3></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Цитаты</h2>
+    
+    <div class="section">
+      <table>
+        <tr class="alternate">
+          <td>> Это первый уровень цитирования.<br />
+>> Второй уровень цитирования.<br />
+> И снова, первый уровень.</td>
+          <td>
+            <blockquote>
+              Это первый уровень цитирования.
+              <blockquote>Второй уровень цитирования.</blockquote>
+              И снова, первый уровень.
+            </blockquote>
+          </td>
+        </tr>        
+      </table>
+    </div>
+    
+    <h2 class="section-name">Ссылки и изображения</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <td>Ссылка на [Google](http://google.com).</td>
+          <td>Ссылка на <a href="http://google.com" target="_blank">Google</a>.</td>
+        </tr>
+        <tr>
+          <td>Отправьте мне электронное письмо на &lt;address@example.com&gt;.</td>
+          <td>Отправьте мне электронное письмо на <a href="address@example.com">address@example.com</a></td>
+        </tr>
+        <tr>
+          <td>![Логотип 37signals](http://www.37signals.com/images/logo-37signals.png)</td>
+          <td><img src="http://www.37signals.com/images/logo-37signals.png" alt="Логотип 37signals" /></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Списки</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Результат</th>
+        </tr>
+        <tr>
+          <td>* Молоко<br />
+* Хлеб<br />
+* Сыр<br />
+&nbsp;&nbsp;* Чеддер<br />
+&nbsp;&nbsp;* Камамбер<br />
+* Рис</td>
+          <td>
+            <ul>
+              <li>Молоко</li>
+              <li>Хлеб</li>
+              <li>Сыр
+                <ul>
+                  <li>Чеддер</li>
+                  <li>Камамбер</li>
+                </ul>
+              </li>
+              <li>Рис</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="alternate">
+          <td>            1. Молоко<br />
+            2. Хлеб<br />
+            3. Сыр<br />
+              1. Чеддер<br />
+              2. Камамбер<br />
+            4. Рис
+          </td>
+          <td>
+            <ol>
+              <li>Молоко</li>
+              <li>Хлеб</li>
+              <li>Сыр
+                <ol>
+                  <li>Чеддер</li>
+                  <li>Камамбер</li>
+                </ol>
+              </li>
+              <li>Рис</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    </div>
+            
+  </body>
 </html>
