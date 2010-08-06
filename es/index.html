@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="es" lang="es" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Guía de Markdown</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <link href="../stylesheets/markdown-reference.css" rel="stylesheet" media="screen" type="text/css" />
+    <script src="../javascripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="../javascripts/guide.js" type="text/javascript"></script>
+  </head>
+  <body>
+    
+    <h1 id="title">Guía de Markdown</h1>
+    
+    <h2 class="section-name">Texto</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Resultado</th>
+        </tr>
+        <tr>
+          <td>Este texto está en **negrita**.</td>
+          <td>Este texto está en <strong>negrita</strong>.</td>
+        </tr>
+        <tr class="alternate">
+          <td>Este texto está en *cursiva*.</td>
+          <td>Este texto está en <em>cursiva</em>.</td>
+        </tr>
+        <tr>
+          <td>`Esto es un trozo de código.`</td>
+          <td><code>Esto es un trozo de código.</code></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Encabezados</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Resultado</th>
+        </tr>
+        <tr>
+          <td># Primer encabezado</td>
+          <td><h1>Primer encabezado</h1></td>
+        </tr>
+        <tr class="alternate">
+          <td>## Segundo encabezado</td>
+          <td><h2>Segundo encabezado</h2></td>
+        </tr>
+        <tr>
+          <td>### Tercer encabezado</td>
+          <td><h3>Tercer encabezado</h3></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Citas</h2>
+    
+    <div class="section">
+      <table>
+        <tr class="alternate">
+          <td>
+            > Este es el primer nivel de la cita.<br /> 
+            >> Esto es una cita anidada<br /> 
+            > Vuelta al primer nivel. 
+          </td>
+          <td>
+            <blockquote>
+              This is the first level of quoting.
+              <blockquote>
+                 Esto es una cita anidada. 
+              </blockquote>
+              Back to the first level.
+            </blockquote>
+          </td>
+        </tr>        
+      </table>
+    </div>
+    
+    <h2 class="section-name">Enlaces i imágenes</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <td>Enlace a [Google](http://google.com).</td>
+          <td>Enlace a <a href="http://google.com" target="_blank">Google</a>.</td>
+        </tr>
+        <tr>
+          <td>Envíame un correo a &lt;direccion@ejemplo.com&gt;.</td>
+          <td>Envíame un correo a <a href="mailto:direccion@ejemplo.com">direccion@ejemplo.com</a>.</td>
+        </tr>
+        <tr>
+          <td>![Logo 37signals](http://www.37signals.com/images/logo-37signals.png)</td>
+          <td><img src="http://www.37signals.com/images/logo-37signals.png" alt="Logo 37signals" /></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Listas</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Resultado</th>
+        </tr>
+        <tr>
+          <td>
+            * Leche<br />
+            * Pan<br />
+            * Queso<br />
+            &nbsp;&nbsp;* Gruyere<br />
+            &nbsp;&nbsp;* Camembert<br />
+            * Arroz
+          </td>
+          <td>
+            <ul>
+              <li>Leche</li>
+              <li>Pan</li>
+              <li>Queso
+                <ul>
+                  <li>Gruyere</li>
+                  <li>Camembert</li>
+                </ul>
+              </li>
+              <li>Arroz</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="alternate">
+          <td>
+            1. Leche<br />
+            2. Pan<br />
+            3. Queso<br />
+            &nbsp;&nbsp;1. Gruyere<br />
+            &nbsp;&nbsp;2. Camembert<br />
+            3. Arroz
+          </td>
+          <td>
+            <ol>
+              <li>Leche</li>
+              <li>Pan</li>
+              <li>Queso
+                <ol>
+                  <li>Gruyere</li>
+                  <li>Camembert</li>
+                </ol>
+              </li>
+              <li>Arroz</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    </div>
+            
+  </body>
+</html>

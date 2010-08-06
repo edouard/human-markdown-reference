@@ -30,7 +30,15 @@ Add a help link to the reference:
 
 # Internationalization
 
-You may need a different language than English. Check in the [markdown-reference](http://github.com/edouard/human-markdown-reference/tree/master/markdown-reference/) directory to see the available languages.
+You may need a different language than English. Human Markdown reference is current translated into:
+
+* Catalan
+* French
+* Russian
+* Spanish
+* Swedish
+
+If you spot a mistake or want to contribute a new language, [request an invitation](https://webtranslateit.com/projects/386-HTML-Markdown-Reference/invitation_request) to the translation project.
 
 Add a help link to the reference:
 
@@ -45,7 +53,3 @@ where `xx` is the code of the locale you want to use.
 
     You can format your text using
     <%= link_to 'Markdown', "/markdown-reference/#{I18n.locale}", :popup => ['markdown_reference', 'height=400,width=600,scrollbars=1'] %>
-
-# Contributing or Correcting Translations
-
-If you spot a mistake or want to contribute a new language, [request an invitation](https://webtranslateit.com/projects/386-HTML-Markdown-Reference/invitation_request) to the translation project.
