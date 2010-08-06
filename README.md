@@ -53,3 +53,8 @@ where `xx` is the code of the locale you want to use.
 
     You can format your text using
     <%= link_to 'Markdown', "/markdown-reference/#{I18n.locale}", :popup => ['markdown_reference', 'height=400,width=600,scrollbars=1'] %>
+
+# Contributors
+
+* Alex Soulim (Russian translations),
+* Pere Joan Martorell (Catalan and Spanish translations).
