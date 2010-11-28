@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="tr" lang="tr" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Markdown Rehberi</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <link href="../stylesheets/markdown-reference.css" rel="stylesheet" media="screen" type="text/css" />
+    <script src="../javascripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="../javascripts/guide.js" type="text/javascript"></script>
+  </head>
+  <body>
+    
+    <h1 id="title">Markdown Rehberi</h1>
+    
+    <h2 class="section-name">Metin</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Sonuç</th>
+        </tr>
+        <tr>
+          <td>Bu metin **kalın**dır.</td>
+          <td>Bu metin <strong>kalın</strong>dır.</td>
+        </tr>
+        <tr class="alternate">
+          <td>Bu metin *eğik*tir.</td>
+          <td>Bu metin <em>eğik</em>tir.</td>
+        </tr>
+        <tr>
+          <td>`Bu bir örnek koddur.`</td>
+          <td><code>Bu bir örnek koddur.</code></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Başlıklar</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Sonuç</th>
+        </tr>
+        <tr>
+          <td># İlk Başlık</td>
+          <td><h1>İlk Başlık</h1></td>
+        </tr>
+        <tr class="alternate">
+          <td>## İkinci Başlık</td>
+          <td><h2>İkinci Başlık</h2></td>
+        </tr>
+        <tr>
+          <td>### Üçüncü Başlık</td>
+          <td><h3>Üçüncü Başlık</h3></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Alıntılar</h2>
+    
+    <div class="section">
+      <table>
+        <tr class="alternate">
+          <td> 
+            > Bu ilk seviye bir alıntıdır.<br /> 
+            >> Bu içiçe bir alıntıdır.<br /> 
+            > İlk seviye'ye geri dönüyoruz. 
+          </td>
+          <td>
+            <blockquote>
+              Bu ilk seviye bir alıntıdır.
+              <blockquote> 
+                Bu içiçe bir alıntıdır. 
+              </blockquote>
+              İlk seviye'ye geri dönüyoruz.
+            </blockquote>
+          </td>
+        </tr>        
+      </table>
+    </div>
+    
+    <h2 class="section-name">Bağlantı ve İmajlar</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <td>[Google](http://google.com) bağlantısı. </td>
+          <td><a href="http://google.com" target="_blank">Google</a> bağlantısı.</td>
+        </tr>
+        <tr>
+          <td><address@example.com> bana bir email gönder.</td>
+          <td><a href="mailto:address@example.com">address@example.com</a> bana bir email gönder.</td>
+        </tr>
+        <tr>
+          <td>![37signals logosu](http://www.37signals.com/images/logo-37signals.png)</td>
+          <td><img src="http://www.37signals.com/images/logo-37signals.png" alt="37signals logosu" /></td>
+        </tr>
+      </table>
+    </div>
+    
+    <h2 class="section-name">Listeler</h2>
+    
+    <div class="section">
+      <table>
+        <tr>
+          <th>Markdown</th>
+          <th>Sonuç</th>
+        </tr>
+        <tr>
+          <td> 
+            * Süt<br /> 
+            * Ekmek<br /> 
+            * Peynir<br /> 
+              * Çedar<br /> 
+              * Krema Peynir<br /> 
+            * Pirinç 
+          </td>
+          <td>
+            <ul>
+              <li>Süt</li>
+              <li>Ekmek</li>
+              <li>Peynir
+                <ul>
+                  <li>Çedar</li>
+                  <li>Krema Peynir</li>
+                </ul>
+              </li>
+              <li>Pirinç</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="alternate">
+          <td> 
+            1. Süt<br /> 
+            2. Ekmek<br /> 
+            3. Peynir<br /> 
+              1. Çedar<br /> 
+              2. Krema Peynir<br /> 
+            4. Pirinç 
+          </td>
+          <td>
+            <ol>
+              <li>Süt</li>
+              <li>Ekmek</li>
+              <li>Peynir
+                <ol>
+                  <li>Çedar</li>
+                  <li>Krema Peynir</li>
+                </ol>
+              </li>
+              <li>Pirinç</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    </div>
+            
+  </body>
+</html>
